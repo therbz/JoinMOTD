@@ -1,0 +1,14 @@
+name: JoinMOTD
+author: therbz
+version: ${project.version}
+main: me.therbz.joinmotd.JoinMOTD
+api-version: 1.19
+commands:
+  joinmotd:
+    description: Main JoinMOTD command
+    usage: "/joinmotd {view | list | reload | add <time> <message> | remove <id> | parse <message>}"
+permissions:
+  joinmotd.view:
+    default: true
+  joinmotd.admin:
+    default: op

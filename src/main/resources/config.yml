@@ -1,0 +1,15 @@
+time:
+  separator: ' '
+  seconds: 's'
+  minutes: 'm'
+  hours: 'h'
+  days: 'd'
+
+messages:
+  no-perm: "<red>No permission."
+  add: "<green>Successfully added new MOTD, id <white><id> <green>expiry <white><expiry> <green>message: <reset><message>"
+  list: "<white><id> <grey><expiry> <white>-> <reset><message>"
+  reload: "<green>Successfully reloaded config and Motds"
+  remove: "<green>Successfully removed MOTD id <white><id> <green>message: <reset><message>"
+  no-id: "<red>That ID does not exist"
+  nfe: "<red>Unable to parse integer"
